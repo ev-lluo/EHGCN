@@ -16,3 +16,6 @@ Compared to widely used uniform sampling method, our approach preserves importan
 Object detection visualization on the Gen1 dataset. 
 ![result](Pics/5.png)
 The red boxes denote the ground-truth annotations, while the green boxes represent our detected bounding boxes, and the numbers represent the corresponding estimation confidences. The baseline method failed to fully detect the object, leading to missed detections, especially when object boundaries were unclear or the background was complex, resulting in lower detection accuracy. In contrast, our model successfully detected the object, with significantly improved bounding box precision. Compared to the baseline, our approach captures objects better in complex backgrounds through more accurate motion modeling and information fusion, significantly enhancing the accuracy of the bounding boxes and effectively reducing missed detections.
+
+ ### __License__
+This repository is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
